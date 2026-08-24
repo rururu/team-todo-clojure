@@ -1,36 +1,35 @@
-# todo-clojure
+# team-todo-clojure
 
-FIXME: description
+This simple Team Todo app, written entirely by ChatGPT in Clojure , allows for weekly planning and tracking of two teams of developers online.
 
-## Installation
+[![Watch the video](doc/Tasklanner.png)](https://www.youtube.com/watch?v=-mU8IFLJL6w)
+Click the screenshot to see a video!
 
-Download from http://example.com/FIXME.
+## Prerequisites
+
+- Java,
+- Clojure,
+- leiningen.
 
 ## Usage
 
-FIXME: explanation
+### on a Team Leader's machine:
 
-    $ java -jar todo-clojure-0.1.0-standalone.jar [args]
+```shell
+$ cd <team-todo-clojure folder>
+$ lein run
+```
+### on a Team member's machine:
 
-## Options
+In browser open page http://<IP address of the Leader's machine>:8888
 
-FIXME: listing of options this app accepts.
+## Notes
 
-## Examples
-
-...
-
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
+Leader's login "admin", password "12345" (can be changed in the file "users.edn")
 
 ## License
 
-Copyright © 2025 FIXME
+Copyright © 2025 Ruslan Sorokin, Matvei Odaryaev
 
 This program and the accompanying materials are made available under the
 terms of the Eclipse Public License 2.0 which is available at
@@ -42,4 +41,5 @@ Public License, v. 2.0 are satisfied: GNU General Public License as published by
 the Free Software Foundation, either version 2 of the License, or (at your
 option) any later version, with the GNU Classpath Exception which is available
 at https://www.gnu.org/software/classpath/license.html.
+
 # team-todo-clojure
