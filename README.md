@@ -2,7 +2,7 @@
 
 This simple Team Todo app, written entirely by ChatGPT in Clojure , allows for weekly planning and tracking of two teams of developers online.
 
-[![Watch the video](doc/Tasklanner.png)](https://www.youtube.com/watch?v=-mU8IFLJL6w)
+[![Watch the video](doc/TaskPlanner.png)](https://www.youtube.com/watch?v=-mU8IFLJL6w)
 Click the screenshot to see a video!
 
 ## Prerequisites
