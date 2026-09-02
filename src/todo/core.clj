@@ -341,7 +341,7 @@
     [:title "Вход"]]
    [:body {:class "login-page"}
     [:div {:class "app-toolbar"}
-     [:button {:type "button" :data-action "language"} "🇬🇧 English"]
+     [:button {:type "button" :data-action "language"} "🇷🇺 Русский"]
      [:button {:type "button" :data-action "theme"} "🌙 Dark"]]
     [:div {:class "login-card"}
      [:h1 "Вход"]
