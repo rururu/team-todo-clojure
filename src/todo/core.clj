@@ -96,7 +96,7 @@
     [:title "Task Planner"]]
    [:body
     [:div {:class "app-toolbar"}
-     [:button {:type "button" :data-action "language"} "🇬🇧 English"]
+     [:button {:type "button" :data-action "language"} "🇷🇺 Русский"]
      [:button {:type "button" :data-action "theme"} "🌙 Dark"]]
     [:h1 "Список задач"]
     [:div {:class "search-panel"} [:input {:id "task-search" :type "search" :placeholder "Поиск задач…" :aria-label "Поиск задач"}]]
