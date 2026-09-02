@@ -93,7 +93,7 @@
     [:meta {:name "viewport" :content "width=device-width, initial-scale=1"}]
     [:link {:rel "stylesheet" :href "/css/todo.css"}]
     [:script {:src "/js/ui.js?v=20260820-2" :defer true}]
-    [:title "Список задач"]]
+    [:title "Task Planner"]]
    [:body
     [:div {:class "app-toolbar"}
      [:button {:type "button" :data-action "language"} "🇬🇧 English"]
